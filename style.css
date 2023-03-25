@@ -1,0 +1,173 @@
+
+*{
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    justify-content: center;
+    align-items: center;
+}
+/* NAV CSS CODE START HERE  */
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li img{
+    height: 30px;
+    width: 150px;
+    margin-right: 350px;
+}
+
+#explore{
+     color:black;
+     margin-right: 10px;
+
+    }
+.discover{
+
+    color:black;
+    margin-right: 10px;
+}    
+.dropdown{
+    text-decoration: none;
+}
+.dropdown-menu{
+}
+.submit{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(155, 151, 151);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.bar{
+    background-color: rgb(144, 145, 145);
+    width: 5px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.login{
+    text-align: center;
+    padding: 5px;
+    width: 120px;
+    height: 20p;
+    margin-right: 10px;
+}
+.join{
+    
+    background-color: rgb(245, 176, 26);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    width: 120px;
+    height: 20p;
+    margin-right: 10px;
+}
+/* NAV CSS CODE END HERE  */
+.heading{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+.msz{
+    color: white;
+    margin-top: -280px;
+    margin-left: 350px;
+}
+.credit{
+    color: rgb(255, 255, 255);
+    margin-top: 110px;
+    margin-left: 950px;
+}
+.container{
+    background-color:white;
+}
+.con{
+    display: flex;
+    
+}
+.con div{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 5px;
+    width: 230px;
+    height: 100px;
+}
+.items{
+    display: flex;
+    padding: 5px;
+    
+}
+.items div{
+    margin: 5px;
+    width: 410px;
+    height: 500px;
+    padding: 5px;
+    
+
+}
+
+/*-------------------
+  Media queries
+  --------------------- */
+  @media only screen and (max-width: 688px) {
+    
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+      }
+    
+    .items{
+      grid-template-columns: repeat(1, 1fr);
+      flex-direction: column;
+      margin: auto;
+      width: 100%;
+    }
+    .body {
+      grid-template-columns: repeat(1, 1fr);
+      flex-direction: column;
+      margin: auto;
+      width: 100%;
+    }
+    ..con {
+      grid-template-columns: repeat(1, 1fr);
+      flex-direction: column;
+      margin: auto;
+      width: 100%;
+    }
+    ..heading {
+      grid-template-columns: repeat(1, 1fr);
+      margin: auto;
+      width: 100%;
+    }
+    .join {
+      flex-direction: column;
+      margin: auto;
+      width: 100%;
+    }
+    .menu {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+      }
+    main {
+      grid-template-columns: repeat(1, 1fr);
+      flex-direction: column;
+      margin: auto;
+      width: 100%;
+    }
+  }
+  
